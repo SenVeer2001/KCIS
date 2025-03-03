@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komal Computers</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="footer.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="toofle">
+          <img src="./images/komaItimage.jpg" alt="Company Logo" class="logo">
+     
+          <button  id="toggle-btn">☰</button>
+      </div>
+      <nav id="nav-menu"  >
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./product.html">Products</a></li>
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- <div class="search-container">
+        <input type="search" id="search" name="search" placeholder="Search here" required>
+        <button type="submit">Search</button>
+      </div> -->
+
+      <form onsubmit="event.preventDefault();" role="search">
+        <label for="search">Search for stuff</label>
+        <input id="search" type="search" placeholder="Search..." autofocus required />
+        <button type="submit">Go</button>
+      </form>
+    </div>
+  </header>
+  
+ 
+  <section class="carousel-section">
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="carousel-track" id="carousel-track">
+          <div class="carousel-slide">
+            <div class="carousel-content">
+              <h2>Professional Tech Services</h2>
+              <p>Expert solutions for all your technology needs</p>
+              <button class="carousel-btn">Learn More</button>
+            </div>
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Tech Services">
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-content">
+              <h2>Hardware Repair</h2>
+              <p>Fast and reliable computer repair services</p>
+              <button class="carousel-btn">Our Services</button>
+            </div>
+            <img src="https://images.unsplash.com/photo-1588702547919-26089e690ecc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Hardware Repair">
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-content">
+              <h2>Software Solutions</h2>
+              <p>Custom software development for your business</p>
+              <a href="./contact.html" style="text-decoration: none ;" class="carousel-tag">
+              <button class="carousel-btn">Contact Us</button>
+            </a>
+            </div>
+            <img src="images/Laptop3.jpeg" alt="Software Solutions">
+          </div>
+        </div>
+        
+        <button class="carousel-control prev" id="prev-btn">
+          <i data-lucide="chevron-left"></i>
+        </button>
+        <button class="carousel-control next" id="next-btn">
+          <i data-lucide="chevron-right"></i>
+        </button>
+        
+        <div class="carousel-dots" id="carousel-dots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h1>Laptop Products</h1>
+  <div class="images-container">
+    <div class="card">
+      <a href="product.html">
+        <img src="images/1.png" alt="Laptop 1">
+      </a>
+      <h3>Laptop 1</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/2.jpg" alt="Laptop 2">
+      </a>
+      <h3>Laptop 2</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/3.jpg" alt="Laptop 3">
+      </a>
+      <h3>Laptop 3</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/4.jpg" alt="Laptop 4">
+      </a>
+      <h3>Laptop 4</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/2.jpg" alt="Laptop 2">
+      </a>
+      <h3>Laptop 2</h3>
+      <p>Click Images for more details</p>
+    </div>
+
+  </div>
+
+
+  <h1>Desktop Products</h1>
+  <div class="images-container">
+    <div class="card">
+      <a href="product.html">
+        <img src="images/1.png" alt="Laptop 1">
+      </a>
+      <h3>Laptop 1</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/2.jpg" alt="Laptop 2">
+      </a>
+      <h3>Laptop 2</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/3.jpg" alt="Laptop 3">
+      </a>
+      <h3>Laptop 3</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/4.jpg" alt="Laptop 4">
+      </a>
+      <h3>Laptop 4</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/2.jpg" alt="Laptop 2">
+      </a>
+      <h3>Laptop 2</h3>
+      <p>Click Images for more details</p>
+    </div>
+
+  </div>
+ 
+  <!-- <div class="images-container">
+    <div class="card">
+      <a href="product.html">
+        <img src="images/1.png" alt="Laptop 1">
+      </a>
+      <h3>Laptop 1</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/2.jpg" alt="Laptop 2">
+      </a>
+      <h3>Laptop 2</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/3.jpg" alt="Laptop 3">
+      </a>
+      <h3>Laptop 3</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/4.jpg" alt="Laptop 4">
+      </a>
+      <h3>Laptop 4</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="images/2.jpg" alt="Laptop 2">
+      </a>
+      <h3>Laptop 2</h3>
+      <p>Click Images for more details</p>
+    </div>
+
+  </div> -->
+  
+
+
+  
+  <h1>Keyword Products</h1>
+  <div class="images-container">
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2021/03/18/19/56/keyboard-6105750_1280.jpg" alt="Keyboard 1">
+      </a>
+      <h3>Keyboard 1</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2013/07/13/11/50/computer-158770_1280.png" alt="Keyboard 2">
+      </a>
+      <h3>Keyboard 2</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2015/09/17/00/52/keyboard-943739_1280.jpg" alt="Keyboard 3">
+      </a>
+      <h3>Keyboard 3</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2013/07/12/19/02/keyboard-154251_1280.png" alt="Keyboard 4">
+      </a>
+      <h3>Keyboard 4</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2015/02/08/16/19/keyboard-628704_1280.jpg" alt="Keyboard 5">
+      </a>
+      <h3>Keyboard 5</h3>
+      <p>Click Images for more details</p>
+    </div>
+  </div>
+
+  <h1>CCTV Camera Products</h1>
+
+  <div class="images-container">
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2023/10/17/11/17/ai-generated-8320893_1280.jpg" alt="Keyboard 1">
+      </a>
+      <h3>CCTV 1</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2023/10/19/12/45/ai-generated-8326627_1280.jpg" alt="Keyboard 2">
+      </a>
+      <h3>Keyboard 2</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2018/10/20/23/53/camera-3762055_1280.jpg" alt="Keyboard 3">
+      </a>
+      <h3>Keyboard 3</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2017/06/18/23/10/cctv-2417559_1280.jpg" alt="Keyboard 4">
+      </a>
+      <h3>Keyboard 4</h3>
+      <p>Click Images for more details</p>
+    </div>
+    <div class="card">
+      <a href="product.html">
+        <img src="https://cdn.pixabay.com/photo/2022/06/17/09/43/cctv-7267534_1280.jpg" alt="Keyboard 5">
+      </a>
+      <h3>Keyboard 5</h3>
+      <p>Click Images for more details</p>
+    </div>
+  </div>
+    <!-- <div class="footer-content">
+      <div class="footer-section about-us">
+        <h3>ABOUT US</h3>
+        <p>Galaxy blue sapphire, West, Noida Phase-2 Noida, Greater Noida, Uttar Pradesh, India 201009</p>
+        <p>+91-xxxxxxxxxxx, +91-xxxxxxxxxx</p>
+        <p>technopedia@gmail.com</p>
+      </div>
+      <div class="footer-section categories">
+        <h3>CATEGORIES</h3>
+        <ul>
+          <li><a href="#laptops">Laptops</a></li>
+          <li><a href="#desktop">Desktop</a></li>
+          <li><a href="#printer">Printer</a></li>
+          <li><a href="#keyboard">Keyboard</a></li>
+        </ul>
+      </div>
+      <div class="footer-section information">
+        <h3>INFORMATION</h3>
+        <ul>
+          <li><a href="#store">Store</a></li>
+        </ul>
+      </div>
+    </div> -->
+     
+
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Web design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Hosting</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Company Address</h3>
+              <p>Shop-04, Iteda Behind of Gaur Sundaryam Near, S.D. Public school & Bank of India Gr.Noida West-201009</p>
+            </div>
+            <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                  class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
+                href="#"><i class="icon ion-social-instagram"></i></a></div>
+          </div>
+        </div>
+      </footer>
+      <p class="copyright">Copyright © Technopediasoft, All rights reserved</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    
+
+
+<script src="toggle.js"></script>
+
+<script>
+  // Initialize Lucide icons
+  lucide.createIcons();
+  
+  // Mobile menu toggle
+  document.getElementById('toggle-btn').addEventListener('click', function() {
+    document.getElementById('nav-menu').classList.toggle('active');
+  });
+
+  // Carousel functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const track = document.getElementById('carousel-track');
+    const slides = Array.from(track.children);
+    const nextButton = document.getElementById('next-btn');
+    const prevButton = document.getElementById('prev-btn');
+    const dotsNav = document.getElementById('carousel-dots');
+    const dots = Array.from(dotsNav.children);
+    
+    const slideWidth = slides[0].getBoundingClientRect().width;
+    
+    // Arrange the slides next to one another
+    const setSlidePosition = (slide, index) => {
+      slide.style.left = slideWidth * index + 'px';
+    };
+    
+    slides.forEach(setSlidePosition);
+    
+    const moveToSlide = (track, currentSlide, targetSlide) => {
+      track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+      currentSlide.classList.remove('current-slide');
+      targetSlide.classList.add('current-slide');
+    };
+    
+    const updateDots = (currentDot, targetDot) => {
+      currentDot.classList.remove('active');
+      targetDot.classList.add('active');
+    };
+    
+    // When I click left, move slides to the left
+    prevButton.addEventListener('click', e => {
+      const currentSlide = track.querySelector('.current-slide') || slides[0];
+      let prevSlide;
+      
+      if (currentSlide === slides[0]) {
+        prevSlide = slides[slides.length - 1];
+      } else {
+        prevSlide = currentSlide.previousElementSibling;
+      }
+      
+      const currentDot = dotsNav.querySelector('.active');
+      let prevDot;
+      
+      if (currentDot === dots[0]) {
+        prevDot = dots[dots.length - 1];
+      } else {
+        prevDot = currentDot.previousElementSibling;
+      }
+      
+      moveToSlide(track, currentSlide, prevSlide);
+      updateDots(currentDot, prevDot);
+    });
+    
+    // When I click right, move slides to the right
+    nextButton.addEventListener('click', e => {
+      const currentSlide = track.querySelector('.current-slide') || slides[0];
+      let nextSlide;
+      
+      if (currentSlide === slides[slides.length - 1]) {
+        nextSlide = slides[0];
+      } else {
+        nextSlide = currentSlide.nextElementSibling;
+      }
+      
+      const currentDot = dotsNav.querySelector('.active');
+      let nextDot;
+      
+      if (currentDot === dots[dots.length - 1]) {
+        nextDot = dots[0];
+      } else {
+        nextDot = currentDot.nextElementSibling;
+      }
+      
+      moveToSlide(track, currentSlide, nextSlide);
+      updateDots(currentDot, nextDot);
+    });
+    
+    // When I click the nav indicators, move to that slide
+    dotsNav.addEventListener('click', e => {
+      // what indicator was clicked on?
+      const targetDot = e.target.closest('span');
+      
+      if (!targetDot) return;
+      
+      const currentSlide = track.querySelector('.current-slide') || slides[0];
+      const currentDot = dotsNav.querySelector('.active');
+      const targetIndex = dots.findIndex(dot => dot === targetDot);
+      const targetSlide = slides[targetIndex];
+      
+      moveToSlide(track, currentSlide, targetSlide);
+      updateDots(currentDot, targetDot);
+    });
+    
+    // Auto slide functionality
+    let slideInterval = setInterval(() => {
+      const currentSlide = track.querySelector('.current-slide') || slides[0];
+      let nextSlide;
+      
+      if (currentSlide === slides[slides.length - 1]) {
+        nextSlide = slides[0];
+      } else {
+        nextSlide = currentSlide.nextElementSibling;
+      }
+      
+      const currentDot = dotsNav.querySelector('.active');
+      let nextDot;
+      
+      if (currentDot === dots[dots.length - 1]) {
+        nextDot = dots[0];
+      } else {
+        nextDot = currentDot.nextElementSibling;
+      }
+      
+      moveToSlide(track, currentSlide, nextSlide);
+      updateDots(currentDot, nextDot);
+    }, 5000);
+    
+    // Add current-slide class to first slide
+    slides[0].classList.add('current-slide');
+    
+    // Touch swipe functionality
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    track.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, false);
+    
+    track.addEventListener('touchend', e => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, false);
+    
+    function handleSwipe() {
+      if (touchEndX < touchStartX) {
+        // Swipe left - next slide
+        nextButton.click();
+      } else if (touchEndX > touchStartX) {
+        // Swipe right - previous slide
+        prevButton.click();
+      }
+    }
+  });
+</script>
+</body>
+</html>
