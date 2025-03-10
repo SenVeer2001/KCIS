@@ -18,27 +18,40 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-          <img src="./images/komaItimage.jpg" alt="Company Logo" class="logo">
-       
-          <button class="toggle-btn" id="toggle-btn">☰</button>
-          <nav id="nav-menu">
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./product.html">Products</a></li>
-              <li><a href="./service.html">Services</a></li>
-              <li><a href="./contact">Contact</a></li>
-              <li><a href="./about.html">About</a></li>
-            </ul>
-          </nav>
-          <div class="search-container">
-            <input type="search" id="search" name="search" placeholder="Search here" required>
-            <button type="submit">Search</button>
-          </div>
-        </div>
-      </header>
-      
+   
+  
+<header>
+  <div class="container">
+   <div class="image_container">
+    <img src="./images/komaItimage.jpg" alt="Company Logo" class="logo">
+    <p>Komal <span>Computer</span> IT Solution</p>
+   </div>
+    
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./product.html">Products</a></li>
+        <li><a href="./service.html">Services</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="right-section">
+      <form onsubmit="event.preventDefault();" role="search">
+        <label for="search">Search for stuff</label>
+        <input id="search" type="search" placeholder="Search..." autofocus required />
+        <button type="submit">Go</button>
+      </form>
+      <button class="toggle-btn" id="toggle-btn">☰</button>
+    </div>
+   
+  
+  </div>
+  <div class="contact-Number">
+    <span>+91-9667262156</span>
+    <span>+91-7703833775</span>
+  </div>
+</header>
 
   <section class="contact-section">
     <div class="contact-info">
