@@ -13,36 +13,58 @@
 
 </head>
 
+ 
 <body>
-  <header>
+  <!-- <header>
     <div class="container">
       <div class="toofle">
           <img src="./images/komaItimage.jpg" alt="Company Logo" class="logo">
-     
-          <button  id="toggle-btn">☰</button>
+          <button id="toggle-btn" class="toggle-btn">☰</button>
       </div>
-      <nav id="nav-menu"  >
+      <nav id="nav-menu" class="nav-menu">
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./product.html">Products</a></li>
           <li><a href="./service.html">Services</a></li>
           <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./about.html">About</a></li>
         </ul>
       </nav>
-      <!-- <div class="search-container">
-        <input type="search" id="search" name="search" placeholder="Search here" required>
-        <button type="submit">Search</button>
-      </div> -->
+    </div>
+</header> -->
 
+<header>
+  <div class="container">
+   <div class="image_container">
+    <img src="./images/komaItimage.jpg" alt="Company Logo" class="logo">
+    <p>Komal <span>Computer</span> IT Solution</p>
+   </div>
+    
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./product.html">Products</a></li>
+        <li><a href="./service.html">Services</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="right-section">
       <form onsubmit="event.preventDefault();" role="search">
         <label for="search">Search for stuff</label>
         <input id="search" type="search" placeholder="Search..." autofocus required />
         <button type="submit">Go</button>
       </form>
+      <button class="toggle-btn" id="toggle-btn">☰</button>
     </div>
-  </header>
+   
   
- 
+  </div>
+  <div class="contact-Number">
+    <span>+91-9667262156</span>
+    <span>+91-7703833775</span>
+  </div>
+</header>
   <section class="carousel-section">
     <div class="carousel-container">
       <div class="carousel">
@@ -72,6 +94,36 @@
             </a>
             </div>
             <img src="images/Laptop3.jpeg" alt="Software Solutions">
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-content">
+              <h2>Software Solutions</h2>
+              <p>Custom software development for your business</p>
+              <a href="./contact.html" style="text-decoration: none ;" class="carousel-tag">
+              <button class="carousel-btn">Contact Us</button>
+            </a>
+            </div>
+            <img src="images/slide.jpg" alt="Software Solutions">
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-content">
+              <h2>KOMAL COMPUTER IT SOLUTION</h2>
+              <p>Custom software development for your business</p>
+              <a href="./contact.html" style="text-decoration: none ;" class="carousel-tag">
+              <button class="carousel-btn">Contact Us</button>
+            </a>
+            </div>
+            <img src="images/slide_2.jpg" alt="Software Solutions">
+          </div>
+          <div class="carousel-slide">
+            <div class="carousel-content">
+              <!-- <h2>Software Solutions</h2>
+              <p>Custom software development for your business</p>
+              <a href="./contact.html" style="text-decoration: none ;" class="carousel-tag">
+              <button class="carousel-btn">Contact Us</button> -->
+            </a>
+            </div>
+            <img src="images/slide_3.jpg" alt="Software Solutions">
           </div>
         </div>
         
@@ -338,7 +390,7 @@
             </div>
             <div class="col-md-6 item text">
               <h3>Company Address</h3>
-              <p>Shop-04, Iteda Behind of Gaur Sundaryam Near, S.D. Public school & Bank of India Gr.Noida West-201009</p>
+              <p>Shop No.4, itera market, Greater Noida W Rd, near SD Public School & Bank of India ATM, opp. Gaur Soundaryam, Greater Noida West, Gaur City 1, Sector 4, G, Iteda, Greater Noida, Uttar Pradesh 201009</p>
             </div>
             <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
                   class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
@@ -359,11 +411,6 @@
   // Initialize Lucide icons
   lucide.createIcons();
   
-  // Mobile menu toggle
-  document.getElementById('toggle-btn').addEventListener('click', function() {
-    document.getElementById('nav-menu').classList.toggle('active');
-  });
-
   // Carousel functionality
   document.addEventListener('DOMContentLoaded', function() {
     const track = document.getElementById('carousel-track');
