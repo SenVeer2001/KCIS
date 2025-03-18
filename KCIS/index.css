@@ -257,10 +257,11 @@ header {
   padding: 5px;
   width: 40px;
   height: 40px;
-  /* display: flex; */
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease;
+  z-index: 1001;
+  position: relative;
 }
 
 .toggle-btn:hover {
@@ -503,8 +504,7 @@ h1::after {
 @media (max-width: 768px) {
   .container {
     position: relative;
-   
-    display: flex;
+    justify-content: space-between;
   }
   
   .toggle-btn {
@@ -513,19 +513,19 @@ h1::after {
 
   nav {
     display: none;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 100px;
     left: 0;
     width: 100%;
+    height: auto;
     background: white;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
   }
-  
 
   nav.active {
-    display: flex;
+    display: block ;
   }
 
   nav ul {
@@ -535,7 +535,12 @@ h1::after {
   }
 
   nav ul li {
-    margin: 10px 0;
+    margin: 15px 0;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px;
   }
 
   form {
