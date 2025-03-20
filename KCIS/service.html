@@ -11,10 +11,13 @@
   <link rel="stylesheet" href="./service.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="footer.css">
-  <script src="https://unpkg.com/lucide@latest"></script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+
   
 </head>
 <body>
@@ -52,6 +55,11 @@
     <span>+91-7703833775</span>
   </div>
 </header>
+
+
+
+<!-- prev code  -->
+
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
@@ -64,12 +72,22 @@
   <section class="services">
     <h2>Our Services</h2>
     <div class="container-our">
+
+      <div class="service-description">
+        <p>Computer/Laptop Repair and AMC Services in Noida</p>
+        <p>All services include a 30-day Customer Satisfaction Guarantee.</p>
+        <p>Is your laptop/computer not functioning properly or experiencing hardware issues? No worries! Contact our Computer Repair Service in Noida, and our expert technicians will provide the best solutions to fix all computer/laptop problems. Our professionals have extensive experience in maintenance, repair, and troubleshooting of all major brands.</p>
+        <p>At Komal Computer IT Solution, we offer unique flat pricing and instant computer AMC service in Noida. Whether for commercial offices or residential users, we provide doorstep service and a detailed analysis of your device issues, offering suitable solutions.</p>
+        <p>Our services include on-site component upgrades, software configuration, data recovery, server maintenance, LAN networking, computer rentals, new system installations, and more.</p>
+
+      </div>
+        
       
       <div class="service-cards">
         <!-- Service Card 1 -->
         <div class="card">
           <div class="icon-container">
-            <i data-lucide="cpu"></i>
+            <i class="cpu"></i>
           </div>
           <h3>All Hardware Support</h3>
           <p>Repair for laptops and desktops with high standards and quality parts.</p>
@@ -147,7 +165,7 @@
           <p>Reliable repair services for screens, keyboards, and other peripherals.</p>
         </div>
       </div>
-    </div>
+    </>
   </section>
 
   <!-- Convenience Section -->
@@ -236,6 +254,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   <script src="toggle.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
 </html>
 
